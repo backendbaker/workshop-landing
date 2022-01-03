@@ -79,7 +79,7 @@ h2.title {
     font-weight: 700;
 }
 
-.promo .promo_btn {
+.promo .promo_btn, .gift .gift_btn {
     display: block;
     margin: 0 auto;
     margin-top: 73px;
@@ -257,4 +257,25 @@ h2.title {
     border-radius: 100%;
 }
 
+.gift {
+    background-color: #EFEFEF;
+    min-height: 631px;
+    padding: 88px 0 88px 0;
+}
 
+.gift .gift_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.gift .gift_txt {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    line-height: 43px;
+    margin-top: 45px;
+}
+
+.gift .gift_btn {
+    margin-top: 51px;
+}
